@@ -14,7 +14,7 @@ import ru.nikolaev.icerockgithubviewer.data.api.GithubApi
 
 @Module
 @InstallIn(SingletonComponent::class)
-object AppRepository {
+object AppModule {
 
     @Provides
     fun provideBaseURL(): String = "https://api.github.com/"
