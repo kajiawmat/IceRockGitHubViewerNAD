@@ -1,0 +1,19 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.IceRockGithubViewer" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/status_bar</item>
+        <item name="colorPrimaryVariant">@color/secondary</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:windowBackground">@color/background</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/status_bar</item>
+        <item name="android:actionBarStyle">@style/RepositoriesActionBar</item>
+        <!-- Customize your theme here. -->
+        <item name="MarkyMarkTheme">@style/MarkdownStyle</item>
+    </style>
+</resources>
